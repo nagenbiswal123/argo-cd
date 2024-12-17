@@ -25,6 +25,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 
 WORKDIR /tmp
 
+
 COPY hack/install.sh hack/tool-versions.sh ./
 COPY hack/installers installers
 
